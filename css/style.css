@@ -111,3 +111,109 @@ a {
     font-size: 1.75rem;
   }
 }
+/* Main */
+/* Products */
+.products {
+  height: 625px;
+  margin: 80px auto;
+}
+.box {
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+  border: 15px solid #fff;
+}
+.box--grey {
+  background: #FAFAFA;
+}
+.box__name {
+  width: 12rem;
+}
+.box__title {
+  margin: 2rem 0;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.box__link {
+  display: block;
+color: #0070c8;
+font-size: 1.25rem;
+}
+.fa-angle-right {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.box__img {
+  max-height: 340px;
+}
+@media screen and (max-width: 992px) {
+
+  .box {
+    width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;;
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+  .box__img {
+    max-width: 300px;
+  }
+}
+/* /Products */
+/* Carosello */
+.carosello {
+  position: relative;
+
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/HelMain.jpg);
+  background-position: center center;
+  background-size: auto;
+  display: inline-block;
+}
+.slide--left {
+  margin-top: 40px;
+  margin-bottom: 120px;
+  text-align: right;
+}
+.slide--right {
+  margin-top: 45px;
+  min-height: 102px;
+  padding-left: 0px;
+}
+
+
+.slide__title--2 {
+  text-align: right;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.slide__title--3 {
+  margin-bottom: .75rem;
+  font-size: 1.25rem;
+}
+.slide--phone {
+  width: 16rem;
+  position: absolute;
+  transform: translate(-50% , -50%);
+  top: 50%;
+  left: 50%;
+}
+
+
+.slide__img {
+  border-radius: 45px;
+  background: white;
+  width: 16rem;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
